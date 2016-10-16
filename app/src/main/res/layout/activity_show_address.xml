@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginBottom="@dimen/dimen_20dp"
+    android:layout_marginLeft="@dimen/dimen_20dp"
+    android:layout_marginRight="@dimen/dimen_20dp"
+    android:layout_marginTop="@dimen/dimen_20dp"
+    android:background="@drawable/dotted_shape"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- Enter_city_or_zip_code -->
+            <TextView
+                android:id="@+id/enter_city_or_zip_code"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/enter_city_or_zip_code"
+                android:textSize="@dimen/dimen_text_22"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/enter_city_or_zip_code_edit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/dimen_20dp" />
+
+            <!-- Countries -->
+            <TextView
+                android:id="@+id/country"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/dimen_20dp"
+                android:text="@string/country"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/country_spinner"
+                style="@style/SpinnerTextViewItem"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/dimen_20dp" />
+
+            <!-- Find and Result -->
+            <Button
+                android:id="@+id/find"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/find"
+                android:textSize="@dimen/dimen_text_24"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/result"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/dimen_text_22"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

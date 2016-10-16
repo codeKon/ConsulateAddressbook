@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">AddressBookConsulate</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="show_list">ADRESLERI GÖSTER</string>
+    <string name="enter_adress">ADRES GIR</string>
+
+    <string name="enter">Bir Konsolosluk bilgisi giriniz:</string>
+    <string name="country">Ülke:</string>
+    <string name="consulat_name">Konsolosluk:</string>
+    <string name="street">Sokak ve Numara:</string>
+    <string name="zipcode">Postakodu:</string>
+    <string name="city">Sehir:</string>
+    <string name="tlf">Telefon:</string>
+    <string name="fax">Fax:</string>
+    <string name="eMail">eMail:</string>
+    <string name="save">Kaydet</string>
+
+    <string name="enter_city_or_zip_code">Bir sehir ismi ve ya posta kodu giriniz:</string>
+    <string name="find">Ara</string>
+
+    <string name="saved_info">Girdiginiz bilgiler kaydedilmistir</string>
+    <string name="message_not_found">Bir bilgi bulunamadi</string>
+
+
+</resources>
+

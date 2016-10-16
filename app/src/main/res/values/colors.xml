@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="transparent">#C0C0C0</color>
+    <color name="dark_blue">#00009B</color>
+    <color name="dark_purple">#943392</color>
+    <color name="light_green">#7ECAC9</color>
+    <color name="light_purple">#B0AFFF</color>
+    <color name="light_turquoise">#63CCFF</color>
+    <color name="cd_light_gray">#DDDDDD</color>
+    <color name="cd_lighter_gray">#EEEEEE</color>
+
+</resources>
+
